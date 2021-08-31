@@ -6,6 +6,6 @@ let salaries = {
 
 let {John,Ann,Pete} = salaries
 
-let sum = John+Ann+Pete
+let sumaVariable = John+Ann+Pete
 
 console.log(sum)

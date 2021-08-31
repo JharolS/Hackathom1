@@ -1,5 +1,8 @@
+let sche = {}
+
 let schedule = {};
-console.log(Boolean(schedule));
-schedule["8:30"] = "get up";
-console.log(schedule);
-console.log(Boolean(schedule));
+
+function isEmpty(obj) {
+    this.obj= obj === {}
+}
+console.log(new isEmpty(schedule))
