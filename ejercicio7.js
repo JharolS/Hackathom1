@@ -4,8 +4,8 @@ let salaries = {
     Pete: 130,
 }
 
-let {John,Ann,Pete} = salaries
+let {John,Ann,Pete,} = salaries
 
-let sumaVariable = John+Ann+Pete
+let sumaVariable = John+Ann+Pete||0
 
-console.log(sum)
+console.log(sumaVariable)
