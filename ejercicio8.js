@@ -5,9 +5,10 @@ let menuBefore = {
 }
 
 function multiplyNumeric(obj){
-    this.obj=obj.width*2,
-    this.obj=obj.height*2;
-    this.obj=obj.title;
+    let {width,height,title} = obj
+    this.width = width*2,
+    this.height = height*2;
+    this.title = title;
 }
 let menuAfter = new multiplyNumeric(menuBefore)
 
